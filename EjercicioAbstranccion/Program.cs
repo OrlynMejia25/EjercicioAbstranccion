@@ -9,12 +9,12 @@ Console.WriteLine();
 
 OperacionesAbstractas opera = new OperacionesAbstractas(numero1,numero2);
 
-double resta = opera.Resta();
-double suma = opera.Suma();
-double division = opera.Division();
-double multiplicacion = opera.Multiplicacion();
+double potencia = opera.Potencia();
+double raiz = opera.Raiz();
+double logaritmo = opera.Logaritmo();
+double seno = opera.Seno();
 
-opera.Imprimir($"Resta: {resta}");
-opera.Imprimir($"Suma: {suma}");
-opera.Imprimir($"Multiplicacion: {multiplicacion}");
-opera.Imprimir($"Division: {division}");
+opera.Imprimir($"Potencia: {potencia}");
+opera.Imprimir($"Raiz: {raiz}");
+opera.Imprimir($"Logaritmo: {logaritmo}");
+opera.Imprimir($"Seno: {seno}");

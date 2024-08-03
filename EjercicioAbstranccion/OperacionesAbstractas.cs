@@ -17,24 +17,26 @@ namespace EjercicioAbstranccion
             Numero2 = numero2;
         }
 
-        public override double Suma()
+        public override double Potencia()
         {
-            return Numero1 + Numero2;
+            return Math.Pow(Numero1, Numero2);
         }
 
-        public override double Resta()
+        public override double Raiz()
         {
-            return Numero1 - Numero2;
+            return Math.Pow(Numero1, 1.0 / Numero2);
         }
 
-        public override double Multiplicacion()
+        public override double Logaritmo()
         {
-            return Numero1 * Numero2;
+            return Math.Log(Numero1, Numero2);
         }
 
-        public override double Division()
+        public override double Seno()
         {
-            return Numero1 / Numero2;
+            return Math.Sin(Numero1);
         }
+
+      
     }
 }

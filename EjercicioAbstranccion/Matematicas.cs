@@ -8,10 +8,10 @@ namespace EjercicioAbstranccion
 {
     public abstract class Matematicas
     {
-        public abstract double Suma();
-        public abstract double Resta();
-        public abstract double Multiplicacion();
-        public abstract double Division();
+        public abstract double Potencia();
+        public abstract double Raiz();
+        public abstract double Logaritmo();
+        public abstract double Seno();
 
         public void Imprimir(string mensaje)
         {
